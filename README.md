@@ -16,6 +16,7 @@ This project simulates an e-commerce site. The main purpose is to practice React
 - Conditional Rendering
 - Use of Props and State
 - Hooks (useState, useEffect)
+- Custom hooks
 - Local Storage
 - Props
 

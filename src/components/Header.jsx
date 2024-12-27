@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 
-const Header = ({cart,deleteGuitar,decreaseQuantity,increaseQuantity,setcart}) => {
+const Header = ({cart,deleteGuitar,decreaseQuantity,increaseQuantity,emptyCart}) => {
 
     
     const totalPagar=cart.reduce((total,guitar)=>total+(guitar.quantity*guitar.price),0)
@@ -81,7 +81,7 @@ const Header = ({cart,deleteGuitar,decreaseQuantity,increaseQuantity,setcart}) =
 }
                             
                             <p className="text-end">Total pagar: <span className="fw-bold">${totalPagar}</span></p>
-                            <button className="btn btn-dark w-100 mt-3 p-2" onClick={()=>setcart([])}>Vaciar Carrito</button>
+                            <button className="btn btn-dark w-100 mt-3 p-2" onClick={()=>emptyCart()}>Vaciar Carrito</button>
                         </div>
                     </div>
                 </nav>

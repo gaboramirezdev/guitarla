@@ -4,11 +4,11 @@ This project simulates an e-commerce site. The main purpose is to practice React
 
 ## Main view of the site:
 
-![Main_View](../guitarla/src/assets/scr_main_view.PNG)
+![Main_View](./src/assets/scr_main_view.PNG)
 
 ### Concepts practiced:
 
-<img src="../guitarla/src/assets/React-Symbol.png" alt="React_Logo" width="200" height="100">
+<img src="./src/assets/React-Symbol.png" alt="React_Logo" width="200" height="100">
 
 - React Components
 - State Management
